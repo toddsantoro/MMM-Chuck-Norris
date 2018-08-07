@@ -1,7 +1,7 @@
 /* Magic Mirror Module: MMM-Chuck-Norris
  * Version: 1.0.0
  *
- * By Todd Santoro https://github.com/toddsantoro/ https://toddsantoro.com/
+ * By Todd Santoro https://github.com/toddsantoro/ https://toddsantoro.com
  * MIT Licensed.
  */
 Module.register("MMM-Chuck-Norris", {
