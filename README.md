@@ -8,6 +8,8 @@ Magic Mirror Module that displays Chuck Norris Facts from the free public API [C
 ## Installation
 To install this module simply clone this repository into your modules folder and run `npm install` inside of `MMM-Chuck-Norris` once that has completed run `grunt` and then add the config to your config/config.js file in the root of MagicMirror. Then run `npm start` in the root and you will start to see Chuck Norris Facts every 20 seconds (default).
 
+TODO: add a config variable to change the time between new facts.
+
 ## Using the module
 
 requiresVersionOfMagicMirror: "2.1.0"
