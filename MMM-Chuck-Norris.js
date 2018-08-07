@@ -7,9 +7,13 @@
 Module.register("MMM-Chuck-Norris", {
 	defaults: {
 		updateInterval: 10000,
-		retryDelay: 5000
+		retryDelay: 5000,
+		title: ""
 	},
-	requiresVersion: "2.1.0", // Required version of MagicMirror
+
+	// Required version of MagicMirror
+	requiresVersion: "2.1.0",
+
 	start: function() {
 		var self = this;
 		var dataRequest = null;
@@ -77,6 +81,8 @@ Module.register("MMM-Chuck-Norris", {
 		var self = this;
 		// create element wrapper for show into the module
 		var wrapper = document.createElement("div");
+		wrapper.innerHTML = document.createElement("h3");
+		wrapper.innerHTML = this.config.title;
 		// If this.dataRequest is not empty
 		if (this.dataRequest) {
 			var wrapperDataRequest = document.createElement("div");

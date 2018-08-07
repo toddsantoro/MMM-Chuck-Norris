@@ -1,10 +1,10 @@
 {
-  "name": "{{MODULE_NAME}}",
+  "name": "MMM-Chuck-Norris",
   "version": "1.0.0",
-  "description": "{{DESCRIPTION}}",
-  "main": "{{MODULE_NAME}}.js",
-  "author": "{{AUTHOR_NAME}}",
-  "license": "{{LICENSE}}",
+  "description": "Magic Mirror Module that displays Chuck Norris Facts from the public API https://api.chucknorris.io/",
+  "main": "MMM-Chuck-Norris.js",
+  "author": "Todd Santoro",
+  "license": "MIT",
   "devDependencies": {
     "grunt": "latest",
     "grunt-eslint": "latest",
