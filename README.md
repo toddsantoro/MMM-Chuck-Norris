@@ -32,5 +32,5 @@ var config = {
 |----------------- |-----------
 | `title`          | *Optional* Add a tilte if you like.
 
-![alt text](/blob/master/assets/img/screenshot.png "Screen Shot for MMM-Chuck-Norris")
+![alt text](/assets/img/screenshot.png "Screen Shot for MMM-Chuck-Norris")
 
