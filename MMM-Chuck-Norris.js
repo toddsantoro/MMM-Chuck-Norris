@@ -6,7 +6,7 @@
  */
 Module.register("MMM-Chuck-Norris", {
 	defaults: {
-		updateInterval: 10000,
+		updateInterval: 20000,
 		retryDelay: 5000,
 		title: ""
 	},
@@ -81,17 +81,19 @@ Module.register("MMM-Chuck-Norris", {
 		var self = this;
 		// create element wrapper for show into the module
 		var wrapper = document.createElement("div");
-		wrapper.innerHTML = document.createElement("h3");
-		wrapper.innerHTML = this.config.title;
+		var titleH3 = document.createElement("h3");
+		titleH3.innerHTML = this.config.title;
 		// If this.dataRequest is not empty
 		if (this.dataRequest) {
 			var wrapperDataRequest = document.createElement("div");
+			wrapperDataRequest.className = "chuck-norris-fact";
 			// check format https://jsonplaceholder.typicode.com/posts/1
 			wrapperDataRequest.innerHTML = this.dataRequest.value;
 			var labelDataRequest = document.createElement("label");
 			// Use translate function
 			// this id defined in translations files
 			// labelDataRequest.innerHTML = this.translate("TITLE");
+			wrapper.appendChild(titleH3);
 			wrapper.appendChild(labelDataRequest);
 			wrapper.appendChild(wrapperDataRequest);
 		}
