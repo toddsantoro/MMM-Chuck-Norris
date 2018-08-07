@@ -1,8 +1,8 @@
-# {{MODULE_NAME}}
+# MMM-Chuck-Norris
 
 This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/).
 
-{{DESCRIPTION}}
+Magic Mirror Module that displays Chuck Norris Facts from the public API https://api.chucknorris.io/
 
 ## Using the module
 
@@ -11,7 +11,7 @@ To use this module, add the following configuration block to the modules array i
 var config = {
     modules: [
         {
-            module: '{{MODULE_NAME}}',
+            module: 'MMM-Chuck-Norris',
             config: {
                 // See below for configurable options
             }
