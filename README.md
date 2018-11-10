@@ -19,7 +19,8 @@ To use this module, add the following configuration block to the modules array i
 var config = {
     modules: [
         {
-            module: 'MMM-Chuck-Norris',
+            module: "MMM-Chuck-Norris",
+            position: "bottom_bar",
             config: {
                 // See below for configurable options
             }
