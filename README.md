@@ -6,7 +6,7 @@ MMM-Chuck-Norris is a module for the [MagicMirror²](https://github.com/MichMich
 Magic Mirror Module that displays Chuck Norris Facts from the free public API [Chuck Norris API](https://api.chucknorris.io/) that requires no API key. This project is my first module based on the [MagicMirror Template](https://github.com/roramirez/MagicMirror-Module-Template) and my project is completed.
 
 ## Installation
-To install this module simply clone this repository into your modules folder and run `npm install` inside of `MMM-Chuck-Norris` once that has completed run `grunt` and then add the config to your config/config.js by entering this in the terminal `nano ~/MagicMirror/config/config.js` file in the root of MagicMirror. Then run `npm start` in the root and you will start to see Chuck Norris Facts every 20 seconds (default).
+To install this module simply clone this repository into your modules folder and run `npm install` inside of `MMM-Chuck-Norris` once that has completed run `grunt`. Then add the config to your config/config.js file by entering this in the terminal `nano ~/MagicMirror/config/config.js`. Then run `npm start` in the root and you will start to see Chuck Norris Facts every 20 seconds (default).
 
 TODO: add a config variable to change the time between new facts.
 
