@@ -27,6 +27,11 @@ var config = {
 }
 ```
 
+## Configuration options
+
+| Option           | Description
+|----------------- |-----------
+|```header```| Can be changed to any **string** or left **blank**: ```' '``` |
 
 ![alt text](/assets/img/screenshot.png "Screen Shot for MMM-Chuck-Norris")
 
