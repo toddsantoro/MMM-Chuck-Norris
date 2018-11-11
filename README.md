@@ -21,19 +21,12 @@ var config = {
         {
             module: "MMM-Chuck-Norris",
             position: "bottom_bar",
-            config: {
-                // See below for configurable options
-            }
+            header: "Chuck Norris Facts"
         }
     ]
 }
 ```
 
-## Configuration options
-
-| Option           | Description
-|----------------- |-----------
-| `title`          | *Optional* Add a tilte if you like.
 
 ![alt text](/assets/img/screenshot.png "Screen Shot for MMM-Chuck-Norris")
 
