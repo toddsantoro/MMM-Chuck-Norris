@@ -81,6 +81,8 @@ Module.register("MMM-Chuck-Norris", {
 		var self = this;
 		// create element wrapper for show into the module
 		var wrapper = document.createElement("div");
+		var titleH3 = document.createElement("h3");
+		titleH3.innerHTML = this.config.title;
 		// If this.dataRequest is not empty
 		if (this.dataRequest) {
 			var wrapperDataRequest = document.createElement("div");
