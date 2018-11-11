@@ -31,7 +31,7 @@ var config = {
 
 | Option           | Description
 |----------------- |-----------
-| `title`          | *Optional* Add a tilte if you like.
+|```header```| Can be changed to any **string** or left **blank**: ```' '``` |
 
 ![alt text](/assets/img/screenshot.png "Screen Shot for MMM-Chuck-Norris")
 
