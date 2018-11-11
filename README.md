@@ -27,6 +27,11 @@ var config = {
 }
 ```
 
+## Configuration options
+
+| Option           | Description
+|----------------- |-----------
+| `title`          | *Optional* Add a tilte if you like.
 
 ![alt text](/assets/img/screenshot.png "Screen Shot for MMM-Chuck-Norris")
 
