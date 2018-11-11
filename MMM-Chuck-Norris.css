@@ -9,9 +9,9 @@
  *
  */
 h3 {
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 300;
-  border-bottom: dotted 1px #fff;
+  border-bottom: solid 1px #fff;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
